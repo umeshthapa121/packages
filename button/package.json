@@ -1,0 +1,29 @@
+{
+  "name": "dsm-button",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "author": "Umesh Thpapa",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "react": "^16.8 || ^17 || ^18",
+    "react-dom": "^16.8 || ^17 || ^18",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.16.1",
+    "@tabler/icons-react": "^3.28.1"
+  }
+}
