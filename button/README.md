@@ -77,16 +77,41 @@ import { IconCheck } from '@tabler/icons-react';
   <IconCheck size={16} /> Complete
 </DSMButton>
 ```
-Props
-DSMButton Props
-Prop	Type	Default	Description
-tooltipProps	Partial`<TooltipProps>	{}`	Properties for the tooltip.
-skeletonProps	SkeletonProps	`{ visible: false }`	Controls the skeleton loader visibility.
-icon	ReactNode	`<IconPhoto />`	Custom icon for the button’s leftSection.
-Other props	ButtonProps	-	All Mantine Button props are supported.
-License
+# Props
+## DSMButton Props
+|Prop	         |Type	                   |Default	     |Description|
+|--------------|-------------------------|--------------|-----------|
+|`tooltipProps`|	`Partial<TooltipProps>`|`{}`         |Properties for the tooltip.|
+|`skeletonProps`|	`SkeletonProps`        |`{ visible: false }`|	Controls the skeleton loader visibility.|
+|`icon` |	`ReactNode`|	`<IconPhoto />`	|Custom icon for the button’s leftSection.|
+|Other props |	`ButtonProps` |`	-	` |All Mantine Button props are supported.|
 
-This package is licensed under the ISC License.
-Author
+
+### Author
 
 Developed by Umesh Thpapa.
+
+## Contributing  
+
+Contributions are welcome! Please follow these steps:  
+1. Fork the repository.  
+2. Create a feature branch: `git checkout -b feature-name`.  
+3. Commit your changes: `git commit -m 'Add feature'`.  
+4. Push to your branch: `git push origin feature-name`.  
+5. Open a pull request.  
+
+---
+
+## License  
+
+This project is licensed under the [ISC License](LICENSE).  
+
+---
+
+## Support  
+
+If you encounter any issues, feel free to open a bug report in the [issues section](https://github.com/umeshthapa121/packages/issues).  
+
+---
+
+Let me know if you need further modifications or enhancements!
