@@ -1,2 +1,5 @@
 node_modules
 ./node_modules
+
+./button/node_modules
+./test-package/node_modules
