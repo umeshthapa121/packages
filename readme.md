@@ -106,15 +106,18 @@ Install `tsup`by running `npm i -D tsup`
 Create a new file `tsup.config.json` and in it:
 
 ```json
-{
- "splitting": true,
- "sourcemap": true,
- "clean": true,
- "minify": true,
- "entry": [
-   "src/index.ts"
- ]
-} 
+ {
+    "splitting": true,
+    "sourcemap": true,
+    "clean": true,
+    "dts":true,
+    "outDir": "dist",
+    "minify": true,
+    "entry": [
+      "src/index.ts"
+    ],
+    "format":["esm", "cjs"]
+   }
 ```
 
 Update your package.json to include a build script
