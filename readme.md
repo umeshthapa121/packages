@@ -87,9 +87,16 @@ In your `tsconfig.json`, you can configure the output directory for your compile
 {
   "compilerOptions": {
     ...
+    "jsx": "react-jsx", 
+    "moduleResolution": "node",
+    "allowUmdGlobalAccess": true,
+     "declaration": true,                            
+     "declarationMap": true,   
     "outDir": "dist",
+
     ...
   },
+  "include": ["src"],
   ...
 }
 ```
