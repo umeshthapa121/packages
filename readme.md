@@ -150,6 +150,7 @@ Before publishing, you should determine the entry point for your library. In `pa
   ...
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
   ...
 }
 ```
