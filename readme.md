@@ -111,7 +111,7 @@ Create a new file `tsup.config.json` and in it:
     "sourcemap": true,
     "clean": true,
     "dts":true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "minify": true,
     "entry": [
       "src/index.ts"
